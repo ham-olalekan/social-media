@@ -1,0 +1,10 @@
+<!-- db.changelog-master.xml -->
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                                       http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+    <include file="db/entities/1-create_countries_table.sql"/>
+    <include file="db/entities/2-insert_countries.sql"/>
+    <include file="db/entities/3-create_basic_auth_table.sql"/>
+    <include file="db/entities/4-insert_basic_auth_table.sql"/>
+</databaseChangeLog>
