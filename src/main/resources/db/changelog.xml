@@ -8,5 +8,6 @@
     <include file="db/entities/3-create_basic_auth_table.sql"/>
     <include file="db/entities/4-insert_basic_auth_table.sql"/>
     <include file="db/entities/5-create_users_table.sql"/>
+
     <include file="db/entities/6-create_authorities_table.sql"/>
 </databaseChangeLog>
