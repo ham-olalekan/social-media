@@ -11,4 +11,5 @@
     <include file="db/entities/6-create_authorities_table.sql"/>
     <include file="db/entities/7-create_user_followers_table.sql"/>
     <include file="db/entities/8-create_post_table.sql"/>
+    <include file="db/entities/9-create_comments_table.sql"/>
 </databaseChangeLog>

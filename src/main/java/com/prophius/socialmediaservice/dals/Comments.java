@@ -1,6 +1,5 @@
 package com.prophius.socialmediaservice.dals;
 
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -18,8 +17,8 @@ import java.util.UUID;
 
 @Getter
 @Setter
-@Entity(name = "posts")
-public class Post {
+@Entity(name = "comments")
+public class Comments {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
@@ -32,6 +31,12 @@ public class Post {
 
     @Column(nullable = false, updatable = false)
     private long userId;
+
+    @Column(nullable = false, updatable = false)
+    private long postId;
+
+    @Column(updatable = false)
+    private Long upstream_id;
 
     private BigDecimal likes;
 

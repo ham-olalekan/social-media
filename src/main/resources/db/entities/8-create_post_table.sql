@@ -4,7 +4,9 @@ CREATE TABLE posts (
     content VARCHAR(300),
     user_id BIGINT NOT NULL,
     likes BIGINT DEFAULT 0,
+    deleted BOOLEAN NOT NULL DEFAULT FALSE,
     created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     CONSTRAINT pk_post_id PRIMARY KEY (id),
     INDEX index_post_user_id (user_id),
     INDEX index_post_reference (reference)
