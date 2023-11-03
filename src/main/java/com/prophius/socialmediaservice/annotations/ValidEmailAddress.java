@@ -1,9 +1,9 @@
 package com.prophius.socialmediaservice.annotations;
 
 import com.prophius.socialmediaservice.annotations.validators.EmailValidator;
-import jakarta.validation.Constraint;
-import jakarta.validation.Payload;
-import jakarta.validation.constraints.Email;
+import javax.validation.Constraint;
+import javax.validation.Payload;
+import javax.validation.constraints.Email;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;

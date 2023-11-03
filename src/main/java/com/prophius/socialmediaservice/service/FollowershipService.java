@@ -1,6 +1,5 @@
 package com.prophius.socialmediaservice.service;
 
-import com.prophius.socialmediaservice.dto.UserFollowerDto;
 import com.prophius.socialmediaservice.projection.UserFollowerProjection;
 
 import java.util.List;

@@ -1,8 +1,8 @@
 package com.prophius.socialmediaservice.annotations.validators;
 
 import com.prophius.socialmediaservice.annotations.ValidEmailAddress;
-import jakarta.validation.ConstraintValidator;
-import jakarta.validation.ConstraintValidatorContext;
+import javax.validation.ConstraintValidator;
+import javax.validation.ConstraintValidatorContext;
 
 import javax.mail.internet.InternetAddress;
 

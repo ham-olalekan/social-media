@@ -2,7 +2,7 @@ package com.prophius.socialmediaservice.exceptions;
 
 import com.prophius.socialmediaservice.dto.ErrorResponseDto;
 import com.prophius.socialmediaservice.dto.ErrorResponseWithArgsDto;
-import jakarta.validation.ValidationException;
+import javax.validation.ValidationException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpHeaders;

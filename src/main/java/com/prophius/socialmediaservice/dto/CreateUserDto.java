@@ -4,12 +4,14 @@ import com.prophius.socialmediaservice.annotations.DoesNotExist;
 import com.prophius.socialmediaservice.annotations.ValidCountryCode;
 import com.prophius.socialmediaservice.annotations.ValidEmailAddress;
 import com.prophius.socialmediaservice.annotations.ValidPhoneNumber;
-import jakarta.validation.Valid;
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.Size;
+
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.util.StringUtils;
+
+import javax.validation.Valid;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
 
 import static com.prophius.socialmediaservice.util.Constants.EntityColumns.EMAIL;
 import static com.prophius.socialmediaservice.util.Constants.EntityColumns.PHONE_NO;

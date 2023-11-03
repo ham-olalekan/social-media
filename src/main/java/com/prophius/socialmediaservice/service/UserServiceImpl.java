@@ -9,7 +9,7 @@ import com.prophius.socialmediaservice.enums.Authorities;
 import com.prophius.socialmediaservice.exceptions.CommonsException;
 import com.prophius.socialmediaservice.repository.AuthorityRepository;
 import com.prophius.socialmediaservice.repository.UserRepository;
-import jakarta.transaction.Transactional;
+import javax.transaction.Transactional;
 import liquibase.repackaged.org.apache.commons.lang3.RandomStringUtils;
 import liquibase.repackaged.org.apache.commons.lang3.RandomUtils;
 import lombok.extern.slf4j.Slf4j;
