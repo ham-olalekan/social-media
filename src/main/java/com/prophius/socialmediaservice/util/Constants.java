@@ -6,6 +6,10 @@ public class Constants {
 
     public final static String PROCESSED_AUTH_TOKEN = "Processed-Auth";
 
+    public final static String X_ACCESS_TOKEN = "X-Access-Token";
+
+    public final static String X_REFRESH_TOKEN = "X-Refresh-Token";
+
     public static final String SCOPES = "scopes";
 
     public final static String ENABLED = "enabled";
@@ -13,6 +17,8 @@ public class Constants {
     public static final String TYPE = "type";
 
     public static final String BASIC_AUTHS = "basic_auths";
+
+    public final static String BASIC_AUTH_PREFIX = "PRO_";
 
     public final static String IAPPENDABLE_REF_SEPARATOR = "_";
 
@@ -25,5 +31,9 @@ public class Constants {
         public final static String PHONE_NO = "phone_no";
 
         public final static String USER_ID = "user_id";
+
+        public final static String TOKEN_STORE = "tokens";
+
+        public final static String USERS = "users";
     }
 }

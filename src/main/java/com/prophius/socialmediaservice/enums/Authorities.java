@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.stream.Collectors;
 
 public enum Authorities {
-    USER;
+    USER, API_USER;
 
     public static final String USER_PREAUTHORIZE = "hasAuthority('USER')";
 

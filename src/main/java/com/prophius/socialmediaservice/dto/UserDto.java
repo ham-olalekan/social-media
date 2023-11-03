@@ -1,28 +1,29 @@
 package com.prophius.socialmediaservice.dto;
 
 import com.prophius.socialmediaservice.dals.User;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.ToString;
 import org.springframework.beans.BeanUtils;
 
-@Getter
 @Setter
+@Getter
+@ToString
 @NoArgsConstructor
-public class FUserDto {
+@AllArgsConstructor
+public class UserDto {
+    private long id;
     private String firstName;
-    private String middleName;
     private String lastName;
+    private String phoneNo;
     private String email;
     private String username;
-    private String countryCode;
-    private String phoneNo;
-    private String imageUrl;
 
-
-    public static FUserDto toDTO(User user) {
-        FUserDto FUserDto = new FUserDto();
-        BeanUtils.copyProperties(user, FUserDto);
-        return FUserDto;
+    public static UserDto toDto(User userModel) {
+        UserDto dto = new UserDto();
+        BeanUtils.copyProperties(userModel, dto);
+        return dto;
     }
 }
