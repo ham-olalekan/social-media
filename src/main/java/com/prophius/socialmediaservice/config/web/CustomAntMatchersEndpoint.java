@@ -7,7 +7,6 @@ import org.springframework.context.annotation.Primary;
 
 import java.util.Stack;
 
-import static org.springframework.http.HttpMethod.GET;
 import static org.springframework.http.HttpMethod.POST;
 
 @Configuration
